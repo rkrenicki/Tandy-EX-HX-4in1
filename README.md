@@ -52,15 +52,33 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 
 
 ## Bill of Materials
-|Quan |Ref(s)        |Mouser Part Number  |Description                                                     
-|-----|--------------|--------------------|----------------------------------------------------------------
-| 1   |BUS1          |200-CES13101SD      |2x31 2.54mm Header Socket
-| 1   |CF-J1         |517-8540-4500PL     |2x20 2.54mm Header Socket, 11mm height.
-| 4   |R1 through R4 |299-10K-RC          |10kOhm 1/8w Resistor
-| 16  |C1 through C16|594-K104M15X7RF53L2 |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
+|Quan |Ref(s)        |Package | Mouser Part Number  |Description                                                     
+|-----|--------------|--------|---------------------|----------------------------------------------------------------
+| 1   |BUS1          | TH     |200-CES13101SD       |2x31 2.54mm Header Socket
+| 1   |CF-J1         | TH     |517-8540-4500PL      |2x20 2.54mm Header Socket, 11mm height.
+| 4   |R1 through R4 | 0603   |603-RC0603FR-0710KL  |10kOhm Resistor
+| 1   |CP1           | TH     |667-ECA-1AM101I      |100uF 16V Electrolytic, 2.5mm LS
+| 16  |C1 through C16| 0603   |963-EMK107B7104KAHT  |0.1uF Multilayer Ceramic Capacitor
+| 2   |232-U7, 232-U9| SO16   |863-MC74ACT138DG     |3 to 8 Line Demux
+| 2   |CF-U3, RAM-U11| SO20W  |863-MC74HCT245ADWG   |Tri-state Bus Transciever
+| 1   |RAM-U13       | SO14   |595-SN74HCT32DR      |Quad OR Gate
+| 1   |RAM-U12       | SO14   |595-SN74HCT00DR      |Quad NAND Gate
+| 1   |CF-U1         | SO16   |863-MC74ACT139DG     |Dual 2 to 4 Demux
+| 1   |232-U6        | SO20   |595-GD75232DBR       |RS-232 Driver
+| 2   |CF-U2, ROM-U4 | SO20W  |595-CD74HCT688M96    |8 Bit Comparator
+| 1   |232-P2        | TH     |523-L717SDE09PA4CH4  |RS232 DE9 Connector
+| 1   |232-OSC1      |        |774-CB3-3C-1M8432    |1.8432Mhz Oscillator 0705 TTL
+| 1   |232-U8        | LQFP48 |595-TL16C550DPFBR    |RS-232 UART
+| 1   |RAM-U10       | SOP32  |913-AS6C4008-55SIN   |4mbit SRAM  (512K x 8)
+| 1   |ROM-U5        | DIP32  |804-39SF010A7CPHE    |1mbit Flash
+| 1   |ROM-U5 Socket | DIP32  |                     |32pin wide DIP socket
+| 1   |RTC-U15       | SO16   |700-DS1315S-5        |Real Time Clock Phantom Time Chip
+| 1   |RTC-Y1        | TH     |695-CFS-20632768DZBB |32.768kHz Cylinder Crystal
+| 1   |RTC-BT1       | n/a    |81-CR1216            |CR1216 Battery
+| 1   |RTC-BT1 Socket| TH     |534-3001             |12mm Surface Battery Holder
 
 
-Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" or "T" in the name, such as ALS, ACT, AHCT, or HCT among others.
+
 
 ## BIOS
 
