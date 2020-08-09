@@ -34,20 +34,6 @@ ROM:   0xC000-0xC7FF
 ## Assembly Notes
 All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
 
-Recommended assembly order: (Shortest to tallest)
-* 1  - Resistors (R1-R3, R4 for v1.8)
-* 2  - Bypass Capacitors (C1-C16, only noted as "0.1uF" on the boards)
-* 3  - 74 series Chips (U1-4, U6-7, U9, U11-13)
-* 4  - ROM Socket (U5 Socket)
-* 5  - SRAM Chip (U10)
-* 6  - Oscillator (OSC1)
-* 7  - UART Socket (U8 Socket)  - Pay very special attention to the orientation!  See note below.
-* 8  - Connectors (BUS1, CF-J1, CF-J2, 232-P2)
-* 9 -  ROM and UART chips into their sockets.
-* 10  - CF Adapter
-* 11 - Backplate
-
-
 NOTE:  Please take careful note of part orientation.  To optimize some trace routing, not all chips are oriented in the same direction.  
 
 
