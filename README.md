@@ -68,7 +68,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 
 ## BIOS
 
-This board uses the XT-IDE Universal BIOS.  I have included pre-configued images for 2.0.0B3 r602 (latest version as of the time of writing this).  The 3in1BIOS-8088.zip will work on any EX or HX computer, and is the version that I preload on assembled boards and kits.   I have also included a V20 Enhanced version for any EX/HX that has an NEC V20 (or clone) installed.   This enhanced version will roughly double your disk speed, but only works on V20 machines.
+This board uses the XT-IDE Universal BIOS.  I have included pre-configured images for 2.0.0B3 r602 (latest version as of the time of writing this).  The 3in1BIOS-8088.zip will work on any EX or HX computer, and is the version that I preload on assembled boards and kits.   I have also included a V20 Enhanced version for any EX/HX that has an NEC V20 (or clone) installed.   This enhanced version will roughly double your disk speed, but only works on V20 machines.
 
 
 
@@ -92,6 +92,7 @@ This board was derrived from works by, uses design elements from, or contains so
 * James Pearce (https://www.lo-tech.co.uk/)
 * Adrian Black (https://www.youtube.com/user/craig1black/featured)
 * Jacob Dorne of Monotech PCs (https://monotech.fwscart.com/)
+* Derek Osborne (
 * XTIDE Universal BIOS Team (http://www.xtideuniversalbios.org/)
 
 ## README TO-DO
