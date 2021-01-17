@@ -57,11 +57,12 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |232-U8        | LQFP48 |595-TL16C550DPFBR    |RS-232 UART
 | 1   |RAM-U10       | SOP32  |913-AS6C4008-55SIN   |4mbit SRAM  (512K x 8)
 | 1   |ROM-U5        | DIP32  |804-39SF010A7CPHE    |1mbit Flash
-| 1   |ROM-U5 Socket | DIP32  |                     |32pin wide DIP socket
+| 1   |ROM-U5 Socket | DIP32  |517-4832-6000-CP     |32pin wide DIP socket
 | 1   |RTC-U15       | SO16   |700-DS1315S-5        |Real Time Clock Phantom Time Chip
 | 1   |RTC-Y1        | TH     |695-CFS-20632768DZBB |32.768kHz Cylinder Crystal
 | 1   |RTC-BT1       | n/a    |81-CR1216            |CR1216 Battery
 | 1   |RTC-BT1 Socket| TH     |534-3001             |12mm Surface Battery Holder
+| 1   |CF-IDE Adapter| n/a    |n/a                  |CF to IDE Adapter from eBay or AliExpress (See note below)
 
 
 
@@ -69,6 +70,15 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 ## BIOS
 
 This board uses the XT-IDE Universal BIOS.  I have included pre-configured images for 2.0.0B3 r602 (latest version as of the time of writing this).  The 3in1BIOS-8088.zip will work on any EX or HX computer, and is the version that I preload on assembled boards and kits.   I have also included a V20 Enhanced version for any EX/HX that has an NEC V20 (or clone) installed.   This enhanced version will roughly double your disk speed, but only works on V20 machines.
+
+
+## CF-IDE Adapter
+
+This board is designed a specific version of a CF-IDE adapter.  They are widely available on eBay and AliExpress.  It bears the mark of "IDE to CF Ver.D2".  It can generally be identified by the metal cover over the CF card connector.   I do not have a link to any one specific vendor or listing, but if the adapter includes the metal backplate and has a metal cover over the CF slot, then it should be correct. 
+
+The CF adapter does also need a few modifications, please refer to the "IDE Adapter Modifications.pdf" for details.  It also has photos of the adapter for reference to buy the proper adapter.
+
+If you have any questions, feel free to join the Discord server below and ask in the #tandy-3in1-support channel.
 
 ## Support Discord
 
