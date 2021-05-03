@@ -66,7 +66,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 
 
 
-Note: For the BUS1 Connector, I have hundreds of these left over from my last order of custom connectors.   You can buy any number of them for $0.50/ea plus shipping.  Even for one, it is far cheaper than the $13 that Mouser wants.   Please email tandy.3-in-1@gmail.com to order.
+Note: For the BUS1 Connector, I have hundreds of these left over from my last order of custom connectors.   You can buy any number of them for $0.50/ea plus shipping.  Even for one, it is far cheaper than the $13 that Mouser wants.   Please email tandy.3in1@gmail.com to order.
 
 
 ## BIOS
