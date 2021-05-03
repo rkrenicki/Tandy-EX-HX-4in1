@@ -40,7 +40,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 ## Bill of Materials
 |Quan |Ref(s)        |Package | Mouser Part Number  |Description                                                     
 |-----|--------------|--------|---------------------|----------------------------------------------------------------
-| 1   |BUS1          | TH     |200-CES13101SD       |2x31 2.54mm Header Socket
+| 1   |BUS1          | TH     |200-CES13101SD<br><b><i>See note below</i></b>|2x31 2.54mm Header Socket
 | 1   |CF-J1         | TH     |517-8540-4500PL      |2x20 2.54mm Header Socket, 11mm height.
 | 4   |R1 through R4 | 0603   |603-RC0603FR-0710KL  |10kOhm Resistor
 | 1   |CP1           | TH     |667-ECA-1AM101I      |100uF 16V Electrolytic, 2.5mm LS
@@ -65,6 +65,8 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |CF-IDE Adapter| n/a    |n/a                  |CF to IDE Adapter from eBay or AliExpress (See note below)
 
 
+
+Note: For the BUS1 Connector, I have hundreds of these left over from my last order of custom connectors.   You can buy any number of them for $0.50/ea plus shipping.  Even for one, it is far cheaper than the $13 that Mouser wants.   Please email tandy.3-in-1@gmail.com to order.
 
 
 ## BIOS
