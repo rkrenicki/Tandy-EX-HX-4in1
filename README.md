@@ -5,9 +5,9 @@ This is a single expansion board designed for the Tandy 1000 EX and HX computers
 * 640KB Base System Memory and 96KB Upper Memory
 * 16550-based DE9 Serial RS232 Port
 * XT-IDE based CompactFlash "Hard Drive"
-* Integrated DS1315 "Smartwatch" Real Time Clock.
+* Integrated DS1315 "Smartwatch" Real Time Clock (Optional)
 
-This is an SMD variant of my original "Tandy 1000 EX/HX 3-in-1" which I was able to shrink down to 100x100mm.  With the space that I had left over, I added a DS1315 based "Smartwatch" RTC, and added a bus passthrough header.
+This is an SMD variant of my original "Tandy 1000 EX/HX 3-in-1" which I was able to shrink down to 100x100mm.  With the space that I had left over, I added provisions for an optional DS1315 based "Smartwatch" RTC, and added a bus passthrough header.
 
 ## Prerequisites
 
@@ -35,6 +35,8 @@ ROM:   0xC000-0xC7FF
 All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
 
 NOTE:  Please take careful note of part orientation.  To optimize some trace routing, not all chips are oriented in the same direction.  
+
+If you opt to not install the RTC, leave out RTC-U15, RTC-Y1, RTC-BT1 and its holder, and install a solder blob on JP2.
 
 
 ## Bill of Materials

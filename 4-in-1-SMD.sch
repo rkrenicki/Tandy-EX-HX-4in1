@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:4-in-1-SMD-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 17717 11024
@@ -3201,4 +3200,19 @@ Wire Wire Line
 	5250 7350 5300 7350
 Wire Wire Line
 	5250 7550 5850 7550
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 6101B04A
+P 7100 8850
+F 0 "JP2" H 7100 9035 50  0000 C CNN
+F 1 "No-RTC Enable" H 7100 8944 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7100 8850 50  0001 C CNN
+F 3 "~" H 7100 8850 50  0001 C CNN
+	1    7100 8850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7200 8850 2    50   Input ~ 0
+~RTC_CS
+Text GLabel 7000 8850 0    50   Input ~ 0
+~ROM_CS
 $EndSCHEMATC
