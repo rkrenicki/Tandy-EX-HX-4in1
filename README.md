@@ -65,6 +65,7 @@ If you opt to not install the RTC, leave out RTC-U15, RTC-Y1, RTC-BT1 and its ho
 | 1   |RTC-BT1       | n/a    |81-CR1216            |CR1216 Battery
 | 1   |RTC-BT1 Socket| TH     |534-3001             |12mm Surface Battery Holder
 | 1   |CF-IDE Adapter| n/a    |n/a                  |CF to IDE Adapter from eBay or AliExpress (See note below)
+| 1   |Mounting Tab  | n/a    |534-7327             |Mounting Tab for backplate (optional)
 
 
 
