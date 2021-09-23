@@ -44,9 +44,9 @@ If you opt to not install the RTC, leave out RTC-U15, RTC-Y1, RTC-BT1 and its ho
 |-----|--------------|--------|---------------------|----------------------------------------------------------------
 | 1   |BUS1          | TH     |200-CES13101SD<br><b><i>See note below</i></b>|2x31 2.54mm Header Socket
 | 1   |CF-J1         | TH     |517-8540-4500PL<br><b><i>See note below</i></b>|2x20 2.54mm Header Socket, 11mm height.
-| 4   |R1 through R4 | 0603   |603-RC0603FR-0710KL  |10kOhm Resistor
+| 3   |R1 through R3 | 0603   |603-RC0603FR-0710KL  |10kOhm Resistor
 | 1   |CP1           | TH     |667-ECA-1AM101I      |100uF 16V Electrolytic, 2.5mm LS
-| 16  |C1 through C16| 0603   |963-EMK107B7104KAHT  |0.1uF Multilayer Ceramic Capacitor
+| 17  |C1 through C17| 0603   |963-EMK107B7104KAHT  |0.1uF Multilayer Ceramic Capacitor
 | 2   |232-U7, 232-U9| SO16   |863-MC74ACT138DG     |3 to 8 Line Demux
 | 2   |CF-U3, RAM-U11| SO20W  |863-MC74HCT245ADWG   |Tri-state Bus Transciever
 | 1   |RAM-U13       | SO14   |595-SN74HCT32DR      |Quad OR Gate
