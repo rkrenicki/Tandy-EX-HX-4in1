@@ -69,8 +69,9 @@ If you opt to not install the RTC, leave out RTC-U15, RTC-Y1, RTC-BT1 and its ho
 
 
 
-Note: For the BUS1 and CF-J1 Connectors, I have many of these left over from my last order of custom connectors.   You can buy them for $2.00/set plus shipping.  Even for one, it is far cheaper than the $20 that Mouser wants.   Please email tandy.3in1@gmail.com to order.
-
+Note: For the BUS1 Connectors, I have many of these left over from my last order of custom connectors.   You can buy them from me for $1/ea plus shipping.  Even for one, it is far cheaper than the $13 that Mouser wants.   
+For small quantities (1-20 connectors), visit my Tindie store to order:  https://www.tindie.com/products/rkrenicki/tandy-1000-ex-and-hx-bus-connector/
+For larger quantities, please email tandy.3in1@gmail.com.
 
 ## BIOS
 
